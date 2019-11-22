@@ -5,4 +5,5 @@ data['pred'] = data['pred_proba'].map(lambda x: 1 if x > threshold else 0)
 import nbconvert
 ! jupyter nbconvert Classification_model.ipynb
 
+## Nbconvert with Hide Inputs
 ! jupyter nbconvert --template=nbextensions --to=html my_notebook.ipynb
